@@ -1,0 +1,95 @@
+/* Leaderboard Container */
+.leaderboard-container {
+    background-color: #2a3b4d; /* Dark Blue */
+    color: #ffffff; /* White text color for contrast */
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Leaderboard Title */
+.leaderboard-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black; /* White */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* Leaderboard List */
+.leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Leaderboard Item */
+.leaderboard-item {
+    background-color: #3c5067; /* Slightly lighter dark blue */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.leaderboard-item:hover {
+    background-color: #4a627f; /* Lighter dark blue on hover */
+}
+
+/* Nickname */
+.leaderboard-item strong {
+    color: #f0f0f0; /* Light grey text for contrast */
+}
+
+/* Rank Styling */
+.leaderboard-rank {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4fb0c6; /* Teal for rank numbers */
+    position: absolute;
+    left: 15px;
+}
+
+/* Rank 1 Styling */
+.rank-1 .leaderboard-rank {
+    color: #ffd700; /* Gold for Rank 1 */
+}
+
+.rank-1 strong {
+    color: #ffd700;
+}
+
+/* Rank 2 Styling */
+.rank-2 .leaderboard-rank {
+    color: #c0c0c0; /* Silver for Rank 2 */
+}
+
+.rank-2 strong {
+    color: #c0c0c0;
+}
+
+/* Rank 3 Styling */
+.rank-3 .leaderboard-rank {
+    color: #cd7f32; /* Bronze for Rank 3 */
+}
+
+.rank-3 strong {
+    color: #cd7f32;
+}
+
+/* Votes Count */
+.leaderboard-item span {
+    font-weight: bold;
+    color: #ffffff; /* White text */
+  
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

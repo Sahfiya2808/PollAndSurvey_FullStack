@@ -1,0 +1,258 @@
+.mmmain-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  flex-grow: 1;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.intro-text {
+  margin-left: 5%;
+  max-width: 50%;
+}
+
+.intro-text h1 {
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #666; /* Lighter color for the paragraph text */
+}
+
+.sign-up-free {
+  padding: 15px 30px;
+  font-size: 28px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+}
+
+.intro-image img {
+  max-width: 100%;
+}
+
+.how-to-make-poll {
+  margin: 50px 5%; /* Adjust margins as needed */
+  text-align: center;
+}
+
+.how-to-make-poll h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center; /* Center boxes horizontally */
+  gap: 20px; /* Space between boxes */
+}
+
+.step-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px; /* Fixed width for uniformity */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.step-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-box p {
+  font-size: 16px;
+  color: #666; /* Lighter color for the paragraph text */
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 5%; /* Adjust margins as needed */
+}
+
+.info-section .image-text-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.info-section .info-image,
+.info-section .info-text {
+  flex: 1;
+  margin: 10px;
+}
+
+.info-section .info-image img {
+  max-width: 100%;
+}
+
+.info-section .info-text {
+  padding: 20px;
+}
+
+.info-section .info-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.info-section .info-text p {
+  font-size: 16px;
+  color: #666; /* Lighter color for the paragraph text */
+}
+
+.info-section.reversed .info-image {
+  order: 2;
+  padding-left: 500px;
+}
+
+.info-section.reversed .info-text {
+  order: 1;
+}
+.faq-section {
+  margin: 50px 5%;
+  text-align: center;
+}
+
+.faq-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: black; /* Match your theme color */
+}
+
+.faq-item {
+  margin: 20px 0;
+  cursor: pointer;
+ 
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f7f7f7; /* Subtle hover effect */
+}
+
+.faq-question h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+.arrow {
+  font-size: 14px; /* Smaller arrow size */
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.arrow.expanded {
+  transform: rotate(180deg);
+}
+.letsgo {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Light background color */
+  text-align: center; /* Center text */
+}
+
+.letsgo-content {
+  max-width: 600px; /* Limit content width */
+  margin: 0 auto; /* Center content block */
+  padding-bottom: 40px;
+}
+
+.letsgo h2 {
+  font-size: 36px; /* Adjust font size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.lets-create {
+  padding: 15px 80px; /* Padding inside the button */
+  font-size: 20px; /* Font size for the button text */
+  background-color: orange; /* Background color of the button */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  
+}
+
+.lets-create:hover {
+  background-color: #ff9c00; /* Darker shade on hover */
+}
+.footer {
+  background-color: #333; /* Dark background color for footer */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-right li {
+  margin: 0 15px;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}

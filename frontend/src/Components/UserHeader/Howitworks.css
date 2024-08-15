@@ -1,0 +1,83 @@
+.Howitworks {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Howitworks-header {
+    background-color: #d3d3d3; /* Header color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .Howsteps {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .Howstep {
+    max-width: 300px;
+  }
+  
+  .Howstep h2 {
+    font-size: 1.5em;
+    color: #6a1b9a;
+  }
+  
+  .Howstep p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .Howdetails, .Howreal-time-results {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #7C7E5F; /* Section background color */
+    color: #fff; /* Text color for readability */
+    position: relative; /* Ensure positioning context for image */
+  }
+  
+  .Howdetails h2, .Howreal-time-results h2 {
+    font-size: 1.5em;
+    color: #fff; /* Header color in sections */
+  }
+  
+  .Howdetails p, .Howreal-time-results p {
+    font-size: 1em;
+    color: #f0f0f0; /* Lighter color for readability */
+  }
+  
+  .howimage-left {
+    float: left;
+    margin-right: 20px;
+    max-width: 30%;
+    padding: 10px; /* Add padding around the image */
+  }
+  
+  .howimage-right {
+    float: right;
+    margin-left: 20px;
+    max-width: 30%;
+    padding: 10px; /* Add padding around the image */
+  }
+  
+  .howtext-left {
+     /* Ensure text does not overlap with floated image */
+     text-align: left;
+     position: relative;
+  }
+  
+  .howtext-right {
+     /* Ensure text does not overlap with floated image */
+     text-align: right;
+     position: relative;
+    
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

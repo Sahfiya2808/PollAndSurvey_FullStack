@@ -1,0 +1,191 @@
+/* body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}*/
+
+.landcontainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke ; /* Cool Gray for a professional background */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.landgrid {
+  display: flex;
+  width: 70%; /* Decreased width for a more compact grid */
+  height: 70%; /* Decreased height for a more compact grid */
+  gap: 30px; /* Reduced gap between grid items */
+  position: relative;
+}
+
+.landbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333333; /* Dark charcoal gray text */
+  padding: 15px; /* Adjusted padding for compact design */
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 8px; /* Slightly smaller border radius */
+  margin: 5px; /* Reduced margin for better spacing */
+  flex: 1;
+  position: relative;
+  background-clip: padding-box;
+  overflow: hidden; /* Ensure the blur effect doesn't extend beyond the element */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Optional shadow for added depth */
+  background-color: #ffffff; /* Background color for grid items */
+}
+
+.landleft-side, .landright-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.landleft-side img{
+  width: 400px; /* Increased image size */
+  height: 400px; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Space below the images */
+}
+.landright-side img 
+  {
+    width: 420px; /* Increased image size */
+    height: 300px; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below the images */
+  }
+
+.left-landbox-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align content vertically */
+  align-items: center; /* Center align content horizontally */
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.right-landbox-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align content vertically */
+  align-items: center; /* Center align content horizontally */
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.landh1 {
+  font-size: 1.1em; /* Slightly smaller font size */
+  margin-bottom: 8px;
+  color: #333333; /* Dark charcoal gray text */
+  text-align: center;
+}
+
+.get-landbutton, .sign-landbutton {
+  font-size: 0.9em; /* Slightly smaller font size */
+  padding: 8px 16px; /* Adjusted padding */
+  border: none; /* Removed border */
+  background: orange; /* Updated theme color */
+  color: white;
+  cursor: pointer;
+  border-radius: 4px; /* Slightly smaller border radius */
+  margin-top: 8px; /* Reduced margin to position buttons */
+}
+
+.get-landbutton:hover, .sign-landbutton:hover {
+  background: #6eabe4; /* Darker shade on hover */
+}
+
+.landbox .button-container {
+  display: flex;
+  flex-direction: column; /* Align buttons vertically */
+  gap: 8px; /* Reduced space between buttons */
+  width: 100%; /* Full width container */
+  align-items: center; /* Center align buttons */
+}
+
+.landbox .content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center align text */
+}
+
+/* Modal Styles */
+/* Modal Styles */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%); /* Initial position */
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Smooth transition for opacity and transform */
+}
+
+.modal.open {
+  opacity: 1; /* Make visible */
+  transform: translate(-50%, -50%); /* Final position */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity */
+}
+
+.overlay.open {
+  opacity: 1; /* Make visible */
+}
+
+
+.modal-button {
+  font-size: 0.9em; /* Slightly smaller font size */
+  padding: 8px 16px; /* Adjusted padding */
+  border: none; /* Removed border */
+  background: orange; /* Updated theme color */
+  color: white;
+  cursor: pointer;
+  border-radius: 4px; /* Slightly smaller border radius */
+  margin-top: 8px; /* Reduced margin to position buttons */
+  
+}
+
+.modal-button:hover {
+  background: #6eabe4; /* Darker shade on hover */
+}
+
+.landnickname-input {
+  width: 100%; /* Full width input in modal */
+  padding: 8px; /* Adjusted padding */
+  border-radius: 4px; /* Slightly smaller border radius */
+  border: 1px solid #333333; /* Dark charcoal gray border for visibility */
+  margin-bottom: 8px; /* Reduced margin */
+}
+.modal .button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Adjust gap as needed */
+  width: 100%; /* Full width container */
+  align-items: center; /* Center align buttons */
+}

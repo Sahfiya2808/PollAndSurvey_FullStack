@@ -1,0 +1,195 @@
+/* Dashboard.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.root {
+  display: flex;
+  height: 100%; /* Ensure the root takes full height *//*
+}
+
+.appBarStyled {
+  background-color: #3f51b5;
+  z-index: 1400; /* Adjust the z-index if needed */
+}
+
+.drawerStyled {
+  background-color: #f5f5f5;
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawerStyled .MuiDrawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+}
+
+
+
+.sectionTitle {
+  margin-top: 20px;
+  text-align: center;
+  color: #3e2723; /* Dark brown color for section titles */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+
+
+.boxStyled {
+  width: 100%;
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  
+  position: relative;
+}
+
+.boxStyled img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.gap {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.poll-gif {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px;
+  margin-left: 5px;
+}
+
+.toolbarRight {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: center; /* Centers items horizontally */
+}
+
+.gridItem {
+  flex: 1 1 30%; /* Allows items to grow and shrink, with a basis of 30% of container width */
+  max-width: 30%; /* Ensures items do not exceed 30% of container width */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.PerformanceCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  border: 10px solid #3f51b5;
+  position: relative;
+}
+
+.CircularProgressStyled {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ScrollableContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 400px; /* Adjust based on your layout */
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.css-hyum1k-MuiToolbar-root{
+  background-color: whitesmoke;
+}
+
+.horizontalScrollContainer {
+  padding: 10px;
+  gap: 16px;
+  white-space: nowrap;
+  display: flex;
+  overflow-x: auto;
+}
+
+.horizontalScrollContainer::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+ 
+.poll-item {
+  width: 500px; /* Increased width */
+  padding: 20px; /* Increased padding */
+  border: 1px solid #a1887f; /* Border color for visual separation */
+  border-radius: 12px; /* Rounded corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  background-color: #efebe9; /* Light brown background for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a 3D effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for effects */
+  margin-bottom: 20px;
+}
+.poll-item:hover {
+  transform: translateY(-10px); /* Lift up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.poll-item:hover {
+  background-color: #e0e0e0;
+}
+
+.poll-link {
+  text-decoration: none;
+  color: inherit;
+}
+.poll-titles {
+  font-weight: bold;
+  margin-bottom: 10px; /* Add spacing below the title */
+  overflow-wrap: break-word; /* Break long words */
+  word-wrap: break-word; /* Support older browsers */
+  text-align: center; /* Center-align the text */
+}
+
+.toolbarRight{
+  color: black;
+  font-size: larger;
+}
+
+.trending{
+  padding-right: 90px;
+}

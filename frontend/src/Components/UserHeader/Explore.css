@@ -1,0 +1,42 @@
+.Explore {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Explore-header {
+    background-color:#d3d3d3;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Explorecategories, .Explorepoll-types {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .Explorecategories h2, .Explorepoll-types h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .Explorecategories ul, .Explorepoll-types ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Explorecategories li, .Explorepoll-types li {
+    margin: 10px 0;
+  }
+  
+  .Explorepoll-types li h3 {
+    font-size: 1.5em;
+    color: #6a1b9a;
+  }
+  
+  .Explorepoll-types li p {
+    font-size: 1em;
+    color: #333;
+  }
+  

@@ -1,0 +1,76 @@
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  
+  .Premium {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+     /* Apply the background color here */
+  }
+  
+  .Premium-header {
+    background-color: #d3d3d3; /* Darker shade for the header */
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .premium-content {
+    padding: 20px;
+  }
+  
+  /* Ensure that the logo link is positioned correctly */
+  a.logo {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
+  
+  a.logo img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .membership-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .membership-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .membership-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .membership-card h2 {
+    color: #333;
+  }
+  
+  .membership-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .membership-card li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+  }
+  

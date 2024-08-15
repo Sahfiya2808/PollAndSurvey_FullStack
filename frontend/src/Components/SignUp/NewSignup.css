@@ -1,0 +1,210 @@
+/*body, html {
+  height: 100%;
+  margin: 0;
+  font-weight: bold; /* Set the text font to bold *//*
+}*/
+
+.signupmain-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margins */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.signupimage-container {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.signupform-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke; /* Slightly darker background for the container */
+}
+
+.signup-container {
+  max-width: 400px; /* Reduced max-width for a smaller form */
+  width: 100%;
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px; /* Reduced padding */
+  border-radius: 20px; /* Rounded corners for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+  border: 1px solid #ddd; /* Light border around the form */
+  box-sizing: border-box; /* Ensure padding is included in the width/height */
+}
+
+.signup-heading {
+  margin-bottom: 20px;
+  font-size: 24px; /* Slightly smaller font size for the heading */
+  color: #333;
+  text-align: center;
+}
+
+.signupform-group {
+  margin-bottom: 20px;
+}
+
+.signupform-group label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #666;
+}
+
+/*.side-by-side {
+  display: flex;
+  gap: 10px; /* Gap between the textboxes 
+}*/
+
+.side-by-side div {
+  flex: 1;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px; /* Slightly larger padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-weight: bold; /* Set input text to bold */
+}
+
+textarea {
+  height: 50px; /* Reduced height for the textarea */
+  resize: none; /* Disable resizing */
+}
+
+/*select {
+  -webkit-appearance: none; /* Remove default styling for select elements 
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff 0%, #e9ecef 100%);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px 20px;
+}*/
+
+.signipsubmit-button {
+  padding: 12px; /* Slightly larger padding for the button */
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Full width */
+  font-weight: bold; /* Set button text to bold */
+}
+
+.signipsubmit-button:hover {
+  background-color: #6eabe4;
+}
+
+.signuperror-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold; /* Set error text to bold */
+}
+
+.pop-up-message {
+  text-align: center;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: none;
+  font-weight: bold; /* Set pop-up message text to bold */
+}
+
+.pop-up-message.active {
+  display: block;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link p {
+  margin: 0;
+  font-weight: bold; /* Set login link text to bold */
+}
+
+.login-link button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold; /* Set button text to bold */
+}
+
+.login-link button:hover {
+  color: #0056b3;
+}
+/* General Label Styling */
+.signupform-group label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #666;
+  font-weight: 600; /* Slightly bolder than normal */
+}
+
+/* Adjust spacing for the target group section */
+.signupform-groupbus {
+  margin-bottom: 20px; /* Ensure proper spacing */
+}
+
+.signupform-groupbus label {
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #666;
+  font-weight: 600; /* Slightly bolder than normal */
+}
+
+.signupform-groupbus textarea {
+  width: 100%; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none; /* Disable resizing */
+  font-weight: bold; /* Set input text to bold */
+}
+
+/* Ensure placeholder text in select dropdown is not bold */
+.signupform-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-weight: normal; /* Ensure placeholder text is not bold */
+}
+
+.signupform-group select option {
+  font-weight: bolder; /* Ensure options text is not bold */
+}
+
+.signupform-group label.targetgap {
+  margin-bottom: 0; /* Remove any space below the label */
+  display: block; /* Make sure the label takes up the full width */
+}
+
+.signupimage-container{
+  background-color: whitesmoke;
+  padding-top: 40px;
+  
+}

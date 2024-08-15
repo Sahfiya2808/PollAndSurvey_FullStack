@@ -1,0 +1,62 @@
+.user-info-section {
+    /*background-color: ; /* Light background color similar to the example */
+    padding: 70px 10%; /* Increased padding for a larger section */
+    padding-top: 13px;
+    padding-left: 50px;
+
+  }
+  
+  .user-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto; /* Center align the content */
+  }
+  
+  .user-info-container .text-section {
+    flex: 2; /* Make the text section wider */
+    margin-right: 30px; /* Increased space between text and image */
+  }
+  
+  .user-info-container .text-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info-container .text-section p {
+    font-size: 18px; /* Slightly larger font size for better readability */
+    color: #666; /* Lighter color for the paragraph text */
+    line-height: 1.6; /* Increase line height for better readability */
+  }
+  
+  .user-info-container .image-section {
+    flex: 1;
+    max-width: 50%; /* Adjust image section width */
+  }
+  
+  .user-info-container .image-section img {
+    width: 600px;
+    height: 330px;
+    
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+    padding-left: 80px;
+  }
+  
+  .user-info-container .button-container {
+    margin-top: 20px; /* Space above the button */
+  }
+  
+  .user-info-container .button-container .vote-button {
+    background-color: #ffa500; /* Orange button color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 12px 24px; /* Increased padding for a larger button */
+    font-size: 18px; /* Slightly larger font size for better readability */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .user-info-container .button-container .vote-button:hover {
+    background-color: #e59400; /* Darker orange for hover */
+  }
+  

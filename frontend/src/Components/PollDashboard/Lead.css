@@ -1,0 +1,98 @@
+/* Container for the leaderboard */
+.leaderboard-containernew {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Leaderboard title with a champion cup icon */
+.leaderboard-containernew h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+/* Champion cup icon */
+.leaderboard-containernew h2::before {
+    content: "🏆";
+    font-size: 32px;
+    position: absolute;
+    left: 165px;
+    top: -5px;
+}
+.leaderboard-containernew h2::after {
+    content: "🏆";
+    font-size: 32px;
+    position: absolute;
+    left: 390px;
+    top: -5px;
+}
+
+/* List styling */
+.leaderboardnew {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Each item in the leaderboard */
+.leaderboard-itemnew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ff914d; /* Default orange background */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+}
+
+/* First place - Gold */
+.leaderboard-itemnew:first-child {
+    background-color: #FFD700;
+    color: #333;
+}
+
+/* Second place - Silver */
+.leaderboard-itemnew:nth-child(2) {
+    background-color: #C0C0C0;
+    color: #333;
+}
+
+/* Third place - Bronze */
+.leaderboard-itemnew:nth-child(3) {
+    background-color: #cd7f32;
+    color: #fff;
+}
+
+/* Hover effect */
+.leaderboard-itemnew:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the user's name */
+.user-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Styling for the vote count */
+.vote-count {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FF4500; /* Change text color to a strong orange */
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

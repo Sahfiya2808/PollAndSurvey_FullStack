@@ -1,0 +1,31 @@
+.buzz-container {
+    margin-top: 40px;
+  }
+  
+  .buzz-title {
+    font-weight: bold;
+  }
+  
+  .buzz-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .buzz-item {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .buzz-avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  .buzz-feedback {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  

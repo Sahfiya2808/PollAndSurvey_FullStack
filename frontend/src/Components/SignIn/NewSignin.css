@@ -1,0 +1,97 @@
+
+  
+  .signin-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    
+    box-sizing: border-box;
+  }
+  
+  .signin-left-side, .signin-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .signin-left-side img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .signin-right-side {
+    background-color: whitesmoke; /* Background color for the right side grid */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signin-left-side{
+    background-color:whitesmoke ;
+  }
+  
+  .sign-in-box {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff; /* Background color for the sign-in box */
+  }
+  
+  .signinh2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .email-login input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make inputs the same size */
+  }
+  
+  .email-login .sign-in-btn {
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Make button the same width */
+  }
+  
+  .email-login .sign-in-btn:hover {
+    background-color: #6eabe4;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
